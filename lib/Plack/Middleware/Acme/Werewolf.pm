@@ -6,7 +6,7 @@ use Astro::MoonPhase ();
 use parent qw( Plack::Middleware );
 use Plack::Util::Accessor qw( moonlength message handler );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub prepare_app {
     my ( $self ) = @_;
