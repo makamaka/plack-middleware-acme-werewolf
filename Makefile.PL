@@ -6,8 +6,9 @@ WriteMakefile(
     'NAME'          => 'Acme::Plack::Middleware::Acme::Werewolf',
     'VERSION_FROM'  => 'lib/Plack/Middleware/Acme/Werewolf.pm',
     'PREREQ_PM'     => {
-              'Test::More'  => 0,
-              'Plack'       => 0,
+              'Test::More'  => '0.94',
+              'Plack'       => '0.99',
+              'Astro::MoonPhase' => '0.60',
     },
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
      (ABSTRACT_FROM => 'lib/Acme/Plack/Middleware/Acme/Werewolf.pm', # retrieve abstract from module
